@@ -1,0 +1,50 @@
+
+p{
+    color: red;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    height: auto;
+    padding:10mm;    
+
+}
+
+.container{
+    font-size: 1.5vw;
+    height: auto;
+    width: 20%;
+
+}
+
+.inner_container{
+    font-size: 2vw;
+    height: auto;
+    width: 40%;
+}
+
+.pictures_container{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: silver;
+}
