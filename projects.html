@@ -10,19 +10,51 @@
   </head>
 
   <body>
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a class="active" href="projects.html">Projects</a>
-    </div>
+    <ul class="header">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li class="dropdown">
+        <a class="active" href="projects.html" class="dropbtn">Projects</a>
+        <div class="dropdown-content">
+          <a href="doughnut_about.html">Doughbaby Doughnuts</a>
+          <a href="religion_about.html">Religion Chooser</a>
+          <a href="poker_about.html">PokerTrax</a>
+          <a href="harvest_about.html">Harvest</a>
+        </div>
+      </li>
+    </ul>
 
     <h1>Projects</h1>
 
-    <p>This is my all of my projects</p>
-    <div class="pictures_container">
-      <img src="./images/doughnut.jpg" alt="A project photo by Tom" />
-      <img src="./images/Splash Page.png" alt="A project photo by Tom" />
-      <img src="./images/NewResults.png" alt="A project photo by Tom" />
-    </div>
+    <h4>
+      Android, iOS, Cross Platform. Here is just a sample of some of the apps I
+      have built and collaborated on. I hope you enjoy.... if you can catch
+      them!
+    </h4>
+    <h1>DoughBaby Doughnuts</h1>
+    <a class="project-animate" href="doughnut_about.html">
+      <img
+        class="image"
+        src="./images/Doughnut_Splash.jpg"
+        alt="Doughnut App Image"
+    /></a>
+
+    <h1>Religion Chooser</h1>
+    <a class="project-animate" href="religion_about.html">
+      <img src="./images/Splash Page.png" alt="Religion App Image"
+    /></a>
+
+    <h1>PokerTRAX</h1>
+    <a class="project-animate" href="poker_about.html">
+      <img src="./images/Poker_Flash.png" alt="Poker App Image"
+    /></a>
+
+    <h1>Harvest</h1>
+    <a class="project-animate" href="harvest_about.html">
+      <img
+        class="animatePicture"
+        src="./images/Harvest_Home.jpg"
+        alt="Harvest App Image"
+    /></a>
   </body>
 </html>

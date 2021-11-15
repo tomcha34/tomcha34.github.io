@@ -4,26 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tom's Cool Portfolio</title>
+    <title>Tom Chambers</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="projects.html">Projects</a>
-    </div>
+    <ul class="header">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li class="dropdown">
+          <a href="projects.html" class="dropbtn">Projects</a>
+          <div class="dropdown-content">
+            <a href="doughnut_about.html">Doughbaby Doughnuts</a>
+          <a href="religion_about.html">Religion Chooser</a>
+          <a href="poker_about.html">PokerTrax</a>
+          <a href="harvest_about.html">Harvest</a>
+          </div>
+        </li>
+      </ul>
     <h1>Tom Chambers</h1>
+    <h1 style="font-size:xx-large;">Mobile Application Developer</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-      laboriosam eius quisquam consectetur accusamus eligendi dolorem excepturi
-      dolore alias, aspernatur architecto a autem debitis similique blanditiis
-      enim? Error, in!
+      
+      <h4>
+       Thanks for stopping by. I hope you enjoy my mobile application development work. Lots more is coming soon!</h4>
+      
     </p>
     <div class="pictures_container">
-      <img src="./images/Tom_Profile.jpg" alt="A profile photo of Tom" />
+      <img style="border-radius: 50%;" src="./images/Tom_Profile.jpg" width="300" height="300" alt="A profile photo of Tom" />
     </div>
     <div class="container"></div>
   </body>
