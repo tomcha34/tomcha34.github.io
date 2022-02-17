@@ -27,8 +27,23 @@ h4{
 img{
     width: 25%;
     height: auto;
-    padding:10mm;    
+    padding-left: 10mm;
+    padding-right: 10mm;   
+    padding-top: 10mm;   
+    padding-bottom: 10mm;      
 
+}
+
+.mock-up{
+  width: 200%;
+    height: auto;
+    padding-top: 0; 
+}
+
+.all-in-one{
+  width: 100%;
+    height: auto;
+    padding-left: 0mm;  
 }
 
 .container{
@@ -36,6 +51,11 @@ img{
     height: auto;
     width: 20%;
 
+}
+
+.quotes {
+  font-family: cursive;
+  color: gray;
 }
 
 .inner_container{
@@ -98,7 +118,7 @@ a.pictures_container{
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: #5A74ED;
+    background-color: #00818A;
   }
   
   li.dropdown {
@@ -108,7 +128,7 @@ a.pictures_container{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: ghostwhite;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -122,7 +142,7 @@ a.pictures_container{
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #5A74ED;
+  .dropdown-content a:hover {background-color: #00818A;
     color: white;}
   
   .dropdown:hover .dropdown-content {
@@ -130,7 +150,7 @@ a.pictures_container{
   }
 
   li a.active {
-    background-color: #5A74ED;
+    background-color: #00818A;
     color: white;
   }
 
