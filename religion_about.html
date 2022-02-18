@@ -15,19 +15,34 @@
   </head>
 
   <body style="background-color: whitesmoke">
-    <ul class="header">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li class="dropdown">
-        <a class="active" href="projects.html" class="dropbtn">Projects</a>
-        <div class="dropdown-content">
-          <a href="doughnut_about.html">Doughbaby Doughnuts</a>
-          <a href="religion_about.html">Religion Chooser</a>
-          <a href="poker_about.html">PokerTrax</a>
-          <a href="harvest_about.html">Harvest</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Tom Chambers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">PokerTrax</a>
+                </li>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-    </ul>
+      </div>
+    </nav>
     <h1>Religion Chooser App</h1>
     <h2
       style="
@@ -96,17 +111,21 @@
       />
     </div>
 
-    <div class="pictures_container">
-      <img src="./images/ReligionHomeWF.png" alt="Religion Home Wireframe" />
-      <img
-        src="./images/ReligionQuestionWF.png"
-        alt="Religion Questions Wireframe"
-      />
-      <img
-        src="./images/ReligionResultsWF.png"
-        alt="Religion Results Wireframe"
-      />
-    </div>
+    <div class="row" style="padding-left: 12; padding-right: 12;">
+      <div class="col-4">
+        <img class="img-fluid" class="image" src="./images/ReligionHomeWF.png" alt="Religion Home Wireframe"/>
+      </div>
+      <div class="col-4">
+        <img class="img-fluid" src="./images/ReligionQuestionWF.png"
+        alt="Religion Questions Wireframe"/>
+      </div>
+     
+      <div class="col-4">
+        <img class="img-fluid" src="./images/ReligionResultsWF.png"
+        alt="Religion Results Wireframe" />
+      </div>
+      
+     </div>
 
     <h4>
       This application gets straight to the purpose. The app is very easy to
@@ -116,13 +135,28 @@
     </h4>
     <h1>How it's going</h1>
 
+    <div class="row" style="padding-left: 12; padding-right: 12;">
+      <div class="col-4">
+        <img class="img-fluid" class="image" src="./images/Religion_home_wrapper.png" alt="Religion Home Design"/>
+      </div>
+      <div class="col-4">
+        <img class="img-fluid" src="./images/Religion_question_wrapper.png"
+        alt="Religion Questions Design"/>
+      </div>
+     
+      <div class="col-4">
+        <img class="img-fluid" src="./images/Religion_result_wrapper.png" alt="Religion Results Design" />
+      </div>
+      
+     </div>
+
     <div class="pictures_container">
-      <img src="./images/Religion_home_wrapper.png" alt="Religion Home Design" />
+      <img class="image"  />
       <img
-        src="./images/Religion_question_wrapper.png"
-        alt="Religion Questions Design"
+      class="image"
+        
       />
-      <img src="./images/Religion_result_wrapper.png" alt="Religion Results Design" />
+      <img class="image"  />
     </div>
 
     <h4>

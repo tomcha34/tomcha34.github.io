@@ -15,19 +15,34 @@
   </head>
 
   <body style="background-color: whitesmoke">
-    <ul class="header">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li class="dropdown">
-        <a class="active" href="projects.html" class="dropbtn">Projects</a>
-        <div class="dropdown-content">
-          <a href="doughnut_about.html">Doughbaby Doughnuts</a>
-          <a href="religion_about.html">Religion Chooser</a>
-          <a href="poker_about.html">PokerTrax</a>
-          <a href="harvest_about.html">Harvest</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Tom Chambers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">PokerTrax</a>
+                </li>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-    </ul>
+      </div>
+    </nav>
     <h1>Doughbaby Doughnut App</h1>
     <h2
       style="
@@ -43,7 +58,7 @@
 
     <div class="pictures_container">
       <img
-        class="logo_image"
+        class="logo_image img-fluid"
         src="./images/Doughnut_Logo.png"
         alt="Dpughnut Logo"
       />
@@ -94,14 +109,21 @@
       />
     </div>
 
-    <div class="pictures_container">
-      <img src="./images/doughnutHomeWF.png" alt="Doughnut Home Wireframe" />
-      <img
-        src="./images/doughnutSingleWF.png"
-        alt="Doughnut Single Wireframe"
-      />
-      <img src="./images/doughnutAboutWF.png" alt="Doughnut About Wireframe" />
-    </div>
+    <div class="row" style="padding-left: 12; padding-right: 12;">
+      <div class="col-4">
+        <img class="img-fluid" src="./images/doughnutHomeWF.png" alt="Doughnut Home Wireframe"/>
+      </div>
+      <div class="col-4">
+        <img class="img-fluid" src="./images/doughnutSingleWF.png"
+        alt="Doughnut Single Wireframe"/>
+      </div>
+     
+      <div class="col-4">
+        <img class="img-fluid" src="./images/doughnutAboutWF.png" alt="Doughnut About Wireframe" />
+      </div>
+      
+     </div>
+
 
     <h4>
       I wanted to make the app with a bottom navigaton bar that really focused
@@ -111,11 +133,20 @@
     </h4>
     <h1>How it's going</h1>
 
-    <div class="pictures_container">
-      <img src="./images/Donut_home_wrapper.png" alt="Doughnut Home Design" />
-      <img src="./images/Donut_wrapper.png" alt="Doughnut Single Design" />
-      <img src="./images/Donut_about_wrapper.png" alt="Doughnut About Design" />
-    </div>
+  
+    <div class="row" style="padding-left: 12; padding-right: 12;">
+      <div class="col-4">
+        <img class="img-fluid" src="./images/Donut_home_wrapper.png" alt="Doughnut Home Picture"/>
+      </div>
+      <div class="col-4">
+        <img class="img-fluid" src="./images/Donut_wrapper.png"  alt="Single Doughnut Picture"/>
+      </div>
+     
+      <div class="col-4">
+        <img class="img-fluid" src="./images/Donut_about_wrapper.png" alt="Doughnut About Picture" />
+      </div>
+      
+     </div>
 
     <h4>
       My wife already had a logo, company colours and a slogan, so it was all
