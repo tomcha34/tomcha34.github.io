@@ -32,6 +32,7 @@ img{
 
 }
 
+
 .mock-up{
   width: 200%;
     height: auto;
@@ -91,8 +92,11 @@ img{
   padding:10mm;    
 }
 
-body {
+html, body {
   overflow-x: hidden;
+}
+body {
+  position: relative
 }
 
 .button_style{
@@ -193,6 +197,22 @@ a.pictures_container{
       0%   {background-color: #EF527D;}
       33%  {background-color: beige;}
       66%  {background-color:#9DCAAD;}
+      
+  }
+
+  .animateAndy {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation-name: andy;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+    @keyframes andy {
+      0%   {background-color: green;}
+      33%  {background-color: grey;}
+      66%  {background-color:white;}
       
   }
 
