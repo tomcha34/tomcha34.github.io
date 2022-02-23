@@ -1,6 +1,8 @@
 
 p{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
 }
 
@@ -8,11 +10,12 @@ h1{
     
     text-align: center;
     font-size: 36px;
-    font-family:monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 h2{
   
-  font-family:monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 24px;
   padding-left:10mm;
 }
@@ -20,7 +23,7 @@ h2{
 h4{
   padding:10mm;
   font-size: 16px;
-  font-family: monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
 }
 
@@ -43,11 +46,6 @@ img{
   width: 100%;
     height: auto;
     padding-left: 0mm;  
-}
-
-.wave-design{
-  background: rgba(0,127,136);
-
 }
 
 .container{
@@ -137,6 +135,8 @@ a.pictures_container{
   
   .skillitems{
     float: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   }
   
   li a, .dropbtn {
@@ -220,12 +220,12 @@ a.pictures_container{
     width: 200px;
     height: 200px;
     background-color: #0F6CC9;
-    animation-name: doughbaby;
+    animation-name: blindsup;
     animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   
-    @keyframes doughbaby {
+    @keyframes blindsup {
       0%   {background-color: #0F6CC9;}
       50%  {background-color: white;}
       
@@ -262,6 +262,22 @@ a.pictures_container{
       25%   {background-color: black;}
       50%  {background-color: white;}
       75%  {background-color:#980000;}
+      
+  }
+
+  .animateCanada {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 148, 166);
+    animation-name: canada;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+    @keyframes canada {
+      0%   {background-color: rgb(255, 148, 166);}
+      33%   {background-color: grey;}
+      66%  {background-color: white;}
       
   }
   .animateHarvest {
@@ -408,5 +424,11 @@ span:nth-child(9) {
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@media  only screen and (max-width: 576px) {
+  .logo{
+    width: 100%;
   }
 }
